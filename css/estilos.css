@@ -1,0 +1,102 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+h1{
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+h2{
+	font:bold 14px sans-serif;
+}
+
+header, section, footer, aside, nav,article,hgroup{
+	display: block;
+}
+
+body{
+	text-align: center;
+	background: #ccc;
+}
+
+.agrupar{
+	width: 960px;
+	margin:15px auto;
+	border: solid #000 1px;
+	background: #ffffff; 
+}
+
+.header{
+	background: #fffbb9;
+	border: 1px solid #999999;
+	padding: 20px;
+}
+
+.header h1{
+	text-align: left;
+}
+
+.menu{
+	background: #ccc;
+	padding: 5px 15px;
+	text-align: left;
+}
+
+.menu li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+	font: bold 14px verdana;
+	cursor: pointer;
+}
+
+.seccion{
+	margin: 20px;
+	width: 60%;
+	float: left;
+}
+
+article{
+	background: #fffbcc;
+	border: solid 1px #999;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+time{
+	color: #999;
+}
+
+article footer{
+	text-align: right;
+	margin-top: 20px;
+}
+
+.aparte{
+	width: 30%;
+	float: left;
+	margin: 20px 0;
+}
+
+.aparte blockquote{
+	border: 1px solid #000;
+	padding: 40px;
+	background: #fffbb9;
+	margin-bottom: 20px;
+}
+
+.pie{
+	clear: both;
+	padding: 20px;
+	color: #ffffff;
+	background: #2d3436;
+}
+
+img{
+	width: 80px;
+	margin: 20px auto;
+	display: block;
+}
